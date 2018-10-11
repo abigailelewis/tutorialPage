@@ -67,7 +67,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
+    height: 100px;
 }
 
 li {
@@ -78,8 +79,11 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding-top: 40px;
+    padding-right:15px;
+    padding-left: 15px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -88,7 +92,7 @@ li a:hover {
 
 
 .main {
-    background-image: url(./assets/top.jpg);
+    background-image: url(./assets/top2.jpg);
     background-color: #cccccc; 
     height: 300px; 
     background-position: center; 
@@ -223,14 +227,17 @@ footer {
    
     width: 100%;
     text-align: center;
+    height: 40px;
   
 }
 
 footer ul#menuFooter {
     display: inline-block;
+    width: 100%;
+    text-align: center;
     list-style: none;
-    margin: 0 0 0 0.6em;
-    padding: 0;
+    /* margin: 0 0 0 0.6em;
+    padding: 0; */
     
 }
 footer ul li {
