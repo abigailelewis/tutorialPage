@@ -205,8 +205,8 @@ p {
 }
 
 pre code {
-    background-color: #F9F1D5;
-    border: 1px solid #999;
+    background-color: rgb(158, 158, 158);
+    border: 2px solid black;
     display: block;
     padding: 20px;
     text-align: left;
